@@ -11,10 +11,11 @@ public class SeleniumTest {
     @Before
     public void setUp() {
         // Set path to your ChromeDriver executable
-        System.setProperty("webdriver.chrome.driver", "path/to/chromedriver"); // Replace with the correct path
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\disha\\Downloads\\chrome-headless-shell-win64\\chrome-headless-shell-win64"); // Replace with the correct path
         driver = new ChromeDriver();
         driver.manage().window().maximize(); // Maximize the browser window for better visibility
     }
+ 
 
     @Test
     public void testGoogle() {
